@@ -1,0 +1,3 @@
+serialout KEYWORD1
+p KEYWORD1
+begin_serial KEYWORD1
