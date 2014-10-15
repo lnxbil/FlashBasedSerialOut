@@ -52,7 +52,7 @@ void setup()
    *     (.data + .bss + .noinit)
    */
 
-  // use printf/Serial.print for crash or serialout for working example!
+  // use printf/Serial.print for crash or serialout/p for working example!
   serialout( \
   // over 2K of data
   //    0     5    10   5    20        30        40        50        60        70        80        90       100
@@ -78,7 +78,7 @@ void setup()
   "19 - 0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789\n" \
   );
   
-  serialout("I am %d years old which is 0x%02X in hex and %04o in octal\n", 30, 30, 30);
+  p("I am %d years old which is 0x%02X in hex and %04o in octal\n", 30, 30, 30);
 }
 
 void loop()
